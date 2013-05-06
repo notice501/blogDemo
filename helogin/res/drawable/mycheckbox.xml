@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_checked="true"
+        android:drawable="@drawable/radio" /> <!--已经选中，且被按下-->
+    <item android:state_pressed="true" android:state_checked="false"
+        android:drawable="@drawable/radio" /><!--未被选中，且被按下-->
+    <item android:state_checked="true" android:state_focused="true" 
+        android:drawable="@drawable/checkbox_pressdown" /><!--已经选中，且被聚焦-->
+    <item android:state_checked="false" android:state_focused="true"
+        android:drawable="@drawable/checkbox_hover" /><!--未被选中，且被聚焦-->
+    <item android:state_checked="false"
+        android:drawable="@drawable/radio_1" /><!--未被选中-->
+    <item android:state_checked="true"
+        android:drawable="@drawable/radio" /><!--已经选中-->
+</selector>

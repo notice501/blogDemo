@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="red">#ffff0000</item>
+    <item type="drawable" name="black">#ff000000</item>
+    <item type="drawable" name="black_news">#ff363636</item>
+    <item type="drawable" name="gray1">#ffaaaaaa</item>
+    <item type="drawable" name="gray2">#ff999999</item>
+    <item type="drawable" name="gray3">#ffbbbbbb</item>
+    <item type="drawable" name="gray4">#ff666666</item>
+    <item type="drawable" name="gray5">#ff333333</item>
+    <item type="drawable" name="gray6">#fff2f2f2</item>
+    <item type="drawable" name="gray7">#ffdedede</item>
+    <item type="drawable" name="tabHostSplitLineColor">#ff999396</item>
+    <item type="drawable" name="message_detail_bg">#ffefefef</item>
+    <item type="drawable" name="face_list_bg">#ffefefef</item>
+    <item type="drawable" name="blue1">#ff576b95</item>
+    <item type="drawable" name="blue_link">#ff576b95</item>
+    <item type="drawable" name="voteSummaryTextColor">#ff008080</item>
+    <item type="drawable" name="desktopnoticebg">#ffefefef</item>
+    <item type="drawable" name="blue2">#ff0000ff</item>
+    <item type="drawable" name="blue3">#ffebebeb</item>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:gravity="bottom|left|center"
+		android:id="@+id/linearLayout1" android:background="@null"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:gravity="center"
+			android:orientation="horizontal" android:id="@+id/msg_type_chooser"
+			android:background="@drawable/msg_type_selector_bg"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<RadioGroup android:gravity="center" android:orientation="horizontal"
+			     android:id="@+id/rg"
+				android:layout_width="wrap_content" android:layout_height="wrap_content">
+				<RadioButton android:id="@+id/mode_voice_btn"
+					android:background="@drawable/toolbar_left_bg" android:button="@null"
+					android:text="语音" android:drawableTop="@drawable/voice_mode_btn_bg"
+					style="@style/MMToolbarButton" />
+				<RadioButton android:id="@+id/mode_msg_btn"
+					android:background="@drawable/toolbar_right_bg" android:button="@null"
+					android:text="文字" android:drawableTop="@drawable/msg_mode_btn_bg"
+					style="@style/MMToolbarButton" />
+			</RadioGroup>
+			<Button android:id="@+id/smiley_btn" android:background="@drawable/toolbar_middle_bg"
+				android:text="表情" android:drawableTop="@drawable/smiley_btn"
+				style="@style/MMToolbarButton" />
+			<Button android:id="@+id/add_camera_btn" android:background="@drawable/toolbar_middle_bg"
+				android:text="图片" android:drawableTop="@drawable/camera_btn_bg"
+				style="@style/MMToolbarButton" />
+		</LinearLayout>
+	</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C5CCD4FF"
+    >
+<Button
+	android:id="@+id/small"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Small"
+	android:textSize="10sp"
+	android:textColor="#ffffffff"
+	android:background="@drawable/popup1"
+	/>
+<Button
+	android:id="@+id/large"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="LargeNotFit"
+	android:textSize="40sp"
+	android:textColor="#ffffffff"
+	android:background="@drawable/popup1"
+	/>
+<Button
+	android:id="@+id/largefit"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="LargeFit"
+	android:textSize="40sp"
+	android:textColor="#ffffffff"
+	android:background="@drawable/popup"
+	/>
+
+</LinearLayout>
