@@ -1,7 +1,7 @@
 blogDemo
 ========
 
-demo in my blog 
+demo in my blog, some is missing. 
 
 [foocoder](http://foocoder.com/)
 
